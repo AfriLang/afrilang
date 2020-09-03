@@ -1,0 +1,1 @@
+stopwords in Igbo, yoruba, hausa, swahili
