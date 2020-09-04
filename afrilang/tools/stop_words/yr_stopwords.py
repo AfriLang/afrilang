@@ -1,4 +1,10 @@
-_stopwords = frozenset('''tí, ni, wọn, àwọn, tó, pé, ń, ṣe, náà, ó, kò, sí, bá, wá, fi, kí, lọ,
+"""
+original stopwords taken from  International Journal of Computer and Information Technology (ISSN: 2279 – 0764)
+credit Asubiaro, Toluwase Victor E. Latunde Odeku Medical Library University of Ibadan Ibadan, Nigeria
+"""
+
+
+_stopwords_diacritics = frozenset('''tí, ni, wọn, àwọn, tó, pé, ń, ṣe, náà, ó, kò, sí, bá, wá, fi, kí, lọ,
  yìí, kan, a, jẹ́, sì, fún, ti, bí, yóò, sọ, àti, rẹ, láti, wó ̣n, ẹ, ní, í, ló, máa, òun, gbà, nínú, 
  rí, gbogbo, nígbà, lè, ọmọ, gbé, ọ̀rọ̀, èyí, mo, mọ, mọ́, rẹ̀, di, ọ̀hún, bẹ́ẹ̀, tún, nǹkan, ara, nítorí, 
  ṣùgbọ́n, lọ́wọ́, mú, dá, lórí, ẹni, ọwọ́, bíi, jù, pẹ̀lú, ọjọ́, mi, sílẹ̀, iṣẹ́, bó, ohun, kó, un, dé, 
@@ -13,3 +19,16 @@ _stopwords = frozenset('''tí, ni, wọn, àwọn, tó, pé, ń, ṣe, náà, ó
       sínú, sáré, kín, yàrá, fúnra, kọjú, díẹ̀, lòótọ́, nìyí, àtàwọn, bákan, méjèèjì, fẹ̀gbẹ́, àbí, kiri,
         torí,  jẹ,  káwọn,  márún,  jùlọ,  ọ̀pọ̀lọpọ̀,  síwájú,  àgàgà, lásán, tọ, tètè, àwa, odidi, 
         pàdé, tiẹ, tuntun, gba, sọ́dọ̀, kàn, yí, ọ, mìíràn, wọ̀nyí, ná, ọ́, ẹ́, afi.'''.split())
+
+_stopwords = frozenset(''' ti, ni, won, awon, n, pe, to, si, o, ko, naa, se, lo, wa, ba, e, ki, 
+kan, fi, yii, je, i,  fun, a, mo,  yoo, so, re,  bi, le, ati,  lati, gbe, ohun, maa, oun, ninu,
+ ile, gba, omo, gbogbo, ri, oro, nigba, un, bee, de,  ka, pa, owo, nitori, egbe, sugbon, lowo,
+  on, bo, mu, tun, ara, di, lori, da, benikan, in, eni, fin, wo, eyi, jo, nnkan, mi, te, ise,
+   pelu, oju, ilu, ede, ojo, gbo, yin, fee, lawon, bayii, bii, bere,  ju, ebi, daa, ma,  fe, 
+   ye, bu,  iyen, jeun, gege,  tabi, waa, gege, tabi, nibi, ta,  leyin, lara, an, meji, iru,
+    nibe,  nipa, jade, koja, titi, nla, pada, inu, tele, okan, tawon, tan, loju, too, yo, loun, 
+     emi, po, rara,  gbodo, sa, han,  koko, sele,  paapaa, nikan, laarin, see, yen, niyen, ran,
+      kuro, ya, meta, iroyin, gan, daadaa, sibe, toun, keji, Kankan, wonyi, laipe, eyin, kinni,
+       die, kun,  bakan, bawo,  pari,  atawon,  sinu,  kawon, dara,  siwaju, opolopo, kiri, merin, 
+       pade, enikan, niyi, yato, boya, looto, tete, eleyii, kin,  marun, lodun,  saa, tuntun,  rere, 
+       seni, sibi,  fowo, koju, dide, yi '''.split())
