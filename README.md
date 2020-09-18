@@ -1,5 +1,5 @@
 # afrilang
 NLP library in Python and Cython. Supports 20+ African Languages 
 
-#Disclaimer 
+# Disclaimer 
 Do not use in production, this not an official release 
